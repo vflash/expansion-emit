@@ -1,0 +1,28 @@
+{
+    "version": "1.0",
+    "name": "expansion-emit",
+    "description": "expansion: emit, on, off",
+    "keywords": [
+        "expansion",
+        "event"
+    ],
+    "main": "./expansion-emit.js",
+    "homepage": "https://github.com/vflash/expansion-emit",
+    "bugs": {
+        "url": "https://github.com/vflash/expansion-emit/issues"
+    },
+    "author": {
+        "name": "Vopilovskiy Konstantin",
+        "email": "flash.vkv@gmail.com"
+    },
+
+    "files": [
+        "LICENSE",
+        "README.md",
+        "expansion-emit.js"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/vflash/expansion-emit.git"
+    }
+}
