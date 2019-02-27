@@ -97,7 +97,7 @@ function removeEventListener(event, func) {
 
 
 function addEventListener(name, func, top) {
-    var eventsList = this.eventsList || (eventsList = {});
+    var eventsList = this.eventsList || (this.eventsList = {});
     var list = eventsList[name] || (eventsList[name] = []);
 
     if (typeof func === 'function') {
